@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187678382987C08000838022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187678372987C08000838022 /* AppDelegate.m */; };
+		1876783B2987C08000838022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876783A2987C08000838022 /* SceneDelegate.m */; };
+		1876783E2987C08000838022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876783D2987C08000838022 /* ViewController.m */; };
+		187678412987C08000838022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1876783F2987C08000838022 /* Main.storyboard */; };
+		187678432987C08300838022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187678422987C08300838022 /* Assets.xcassets */; };
+		187678462987C08300838022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187678442987C08300838022 /* LaunchScreen.storyboard */; };
+		187678492987C08300838022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187678482987C08300838022 /* main.m */; };
+		187678532987C08300838022 /* HelloLrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187678522987C08300838022 /* HelloLrisTests.m */; };
+		1876785D2987C08300838022 /* HelloLrisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876785C2987C08300838022 /* HelloLrisUITests.m */; };
+		1876785F2987C08300838022 /* HelloLrisUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876785E2987C08300838022 /* HelloLrisUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1876784F2987C08300838022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1876782B2987C08000838022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187678322987C08000838022;
+			remoteInfo = HelloLris;
+		};
+		187678592987C08300838022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1876782B2987C08000838022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187678322987C08000838022;
+			remoteInfo = HelloLris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187678332987C08000838022 /* HelloLris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187678362987C08000838022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187678372987C08000838022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187678392987C08000838022 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1876783A2987C08000838022 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1876783C2987C08000838022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1876783D2987C08000838022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187678402987C08000838022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187678422987C08300838022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187678452987C08300838022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187678472987C08300838022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187678482987C08300838022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1876784E2987C08300838022 /* HelloLrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187678522987C08300838022 /* HelloLrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLrisTests.m; sourceTree = "<group>"; };
+		187678582987C08300838022 /* HelloLrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1876785C2987C08300838022 /* HelloLrisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLrisUITests.m; sourceTree = "<group>"; };
+		1876785E2987C08300838022 /* HelloLrisUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLrisUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187678302987C08000838022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876784B2987C08300838022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187678552987C08300838022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1876782A2987C08000838022 = {
+			isa = PBXGroup;
+			children = (
+				187678352987C08000838022 /* HelloLris */,
+				187678512987C08300838022 /* HelloLrisTests */,
+				1876785B2987C08300838022 /* HelloLrisUITests */,
+				187678342987C08000838022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187678342987C08000838022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187678332987C08000838022 /* HelloLris.app */,
+				1876784E2987C08300838022 /* HelloLrisTests.xctest */,
+				187678582987C08300838022 /* HelloLrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187678352987C08000838022 /* HelloLris */ = {
+			isa = PBXGroup;
+			children = (
+				187678362987C08000838022 /* AppDelegate.h */,
+				187678372987C08000838022 /* AppDelegate.m */,
+				187678392987C08000838022 /* SceneDelegate.h */,
+				1876783A2987C08000838022 /* SceneDelegate.m */,
+				1876783C2987C08000838022 /* ViewController.h */,
+				1876783D2987C08000838022 /* ViewController.m */,
+				1876783F2987C08000838022 /* Main.storyboard */,
+				187678422987C08300838022 /* Assets.xcassets */,
+				187678442987C08300838022 /* LaunchScreen.storyboard */,
+				187678472987C08300838022 /* Info.plist */,
+				187678482987C08300838022 /* main.m */,
+			);
+			path = HelloLris;
+			sourceTree = "<group>";
+		};
+		187678512987C08300838022 /* HelloLrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				187678522987C08300838022 /* HelloLrisTests.m */,
+			);
+			path = HelloLrisTests;
+			sourceTree = "<group>";
+		};
+		1876785B2987C08300838022 /* HelloLrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1876785C2987C08300838022 /* HelloLrisUITests.m */,
+				1876785E2987C08300838022 /* HelloLrisUITestsLaunchTests.m */,
+			);
+			path = HelloLrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187678322987C08000838022 /* HelloLris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187678622987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLris" */;
+			buildPhases = (
+				1876782F2987C08000838022 /* Sources */,
+				187678302987C08000838022 /* Frameworks */,
+				187678312987C08000838022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLris;
+			productName = HelloLris;
+			productReference = 187678332987C08000838022 /* HelloLris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1876784D2987C08300838022 /* HelloLrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187678652987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLrisTests" */;
+			buildPhases = (
+				1876784A2987C08300838022 /* Sources */,
+				1876784B2987C08300838022 /* Frameworks */,
+				1876784C2987C08300838022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187678502987C08300838022 /* PBXTargetDependency */,
+			);
+			name = HelloLrisTests;
+			productName = HelloLrisTests;
+			productReference = 1876784E2987C08300838022 /* HelloLrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187678572987C08300838022 /* HelloLrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187678682987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLrisUITests" */;
+			buildPhases = (
+				187678542987C08300838022 /* Sources */,
+				187678552987C08300838022 /* Frameworks */,
+				187678562987C08300838022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1876785A2987C08300838022 /* PBXTargetDependency */,
+			);
+			name = HelloLrisUITests;
+			productName = HelloLrisUITests;
+			productReference = 187678582987C08300838022 /* HelloLrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1876782B2987C08000838022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					187678322987C08000838022 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1876784D2987C08300838022 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 187678322987C08000838022;
+					};
+					187678572987C08300838022 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 187678322987C08000838022;
+					};
+				};
+			};
+			buildConfigurationList = 1876782E2987C08000838022 /* Build configuration list for PBXProject "HelloLris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1876782A2987C08000838022;
+			productRefGroup = 187678342987C08000838022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187678322987C08000838022 /* HelloLris */,
+				1876784D2987C08300838022 /* HelloLrisTests */,
+				187678572987C08300838022 /* HelloLrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187678312987C08000838022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187678462987C08300838022 /* LaunchScreen.storyboard in Resources */,
+				187678432987C08300838022 /* Assets.xcassets in Resources */,
+				187678412987C08000838022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876784C2987C08300838022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187678562987C08300838022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1876782F2987C08000838022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876783E2987C08000838022 /* ViewController.m in Sources */,
+				187678382987C08000838022 /* AppDelegate.m in Sources */,
+				187678492987C08300838022 /* main.m in Sources */,
+				1876783B2987C08000838022 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876784A2987C08300838022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187678532987C08300838022 /* HelloLrisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187678542987C08300838022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876785D2987C08300838022 /* HelloLrisUITests.m in Sources */,
+				1876785F2987C08300838022 /* HelloLrisUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187678502987C08300838022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187678322987C08000838022 /* HelloLris */;
+			targetProxy = 1876784F2987C08300838022 /* PBXContainerItemProxy */;
+		};
+		1876785A2987C08300838022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187678322987C08000838022 /* HelloLris */;
+			targetProxy = 187678592987C08300838022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1876783F2987C08000838022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187678402987C08000838022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187678442987C08300838022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187678452987C08300838022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187678602987C08300838022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187678612987C08300838022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187678632987C08300838022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloLris/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187678642987C08300838022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloLris/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187678662987C08300838022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloLris";
+			};
+			name = Debug;
+		};
+		187678672987C08300838022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloLris";
+			};
+			name = Release;
+		};
+		187678692987C08300838022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloLris;
+			};
+			name = Debug;
+		};
+		1876786A2987C08300838022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muziyull.HelloLrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloLris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1876782E2987C08000838022 /* Build configuration list for PBXProject "HelloLris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187678602987C08300838022 /* Debug */,
+				187678612987C08300838022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187678622987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187678632987C08300838022 /* Debug */,
+				187678642987C08300838022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187678652987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187678662987C08300838022 /* Debug */,
+				187678672987C08300838022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187678682987C08300838022 /* Build configuration list for PBXNativeTarget "HelloLrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187678692987C08300838022 /* Debug */,
+				1876786A2987C08300838022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1876782B2987C08000838022 /* Project object */;
+}
